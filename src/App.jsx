@@ -7,13 +7,10 @@ function App() {
   function handleSignIn(){
     setPassword(document.querySelector("#password").value);
     console.log(password);
-    if(password === ""){
-      alert("Please enter your password");
-    }
   }
   function handleChangePass(){
     setPassword(document.querySelector("#password").value);
-    console.log(password);
+ 
     
   }
   useEffect(() => {
